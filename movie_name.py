@@ -38,7 +38,7 @@ def get_file_name(name):
     Returns
     -------
     name of the movie: String
-    Dark.Waters.2019
+    Movie.Name.2019
     """
 
     name = name.split("\\")[-1]
@@ -49,4 +49,4 @@ def get_file_name(name):
     
 
 if __name__ == "__main__":
-    get_movie_title_and_year("C:\filmer\Dark.Waters.2019.1080p.WEB-DL.H264.AC3-EVO[TGx]")
+    get_movie_title_and_year()
