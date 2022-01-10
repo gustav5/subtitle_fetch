@@ -4,8 +4,6 @@ import json
 import string_handling
 import zipfile
 
-
-
 if __name__ == "__main__":
     # look for thing to happen in folder -> watcher
     data ={}
@@ -28,7 +26,7 @@ if __name__ == "__main__":
     li = string_handling.clean_file(li)
     # split on perferred language. will make it easy to remove the rest. 
     language = "English"
-    pages = string_handling.pick_language(li,language,cur_movie) #pages = ['/subtitles/the-peanut-butter-falcon/english/2488109',[English,'The.Peanut.Butter.Falcon.2019.WEBRip.Amazon']]
+    pages = string_handling.pick_language(li,language,cur_movie) 
     #get matches 
     pages = string_handling.get_names_and_matches(cur_movie)   
     #sort on matches, get most matches first in list
@@ -40,7 +38,6 @@ if __name__ == "__main__":
 
     #visit selected pages and download zip file.
     for page in page_name:
-        # '/subtitles/the-peanut-butter-falcon/english/2080151'
         page = "https://subscene.com" + page
         driver.get(page)
         link = driver.find_element_by_link_text("Download English Subtitle")
@@ -51,7 +48,7 @@ if __name__ == "__main__":
     
 
     #extract zipfile to right folder
-    #the-peanut-butter-falcon_english-2080152 (1) zip_files: ['the-peanut-butter-falcon_english-2080151.zip', 'the-peanut-butter-falcon_english-2080152.zip', 'the-peanut-butter-falcon_english-2081493.zip', 'the-peanut-butter-falcon_english-2081347.zip']
+    
     for file in zip_files:
         filename = "C:\\Users\\gusta\\Downloads\\" + file
         try: 
