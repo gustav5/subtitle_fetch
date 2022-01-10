@@ -65,10 +65,3 @@ class Movie():
 
         return li
 
-
-    
-
-#"C:\filmer\Dark.Waters.2019.1080p.WEB-DL.H264.AC3-EVO[TGx]"
-#my_movie = Movie(name = "Dark Waters", year = "2019", filename="Dark.Waters.2019.1080p.WEB-DL.H264.AC3-EVO[TGx]",dir =" C:\filmer\Dark.Waters.2019.1080p.WEB-DL.H264.AC3-EVO[TGx]")
-
-#print(my_movie.filename)
