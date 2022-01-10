@@ -9,4 +9,4 @@ Downloads subtitles from subscene for your legally downloaded movies. Just a pro
 - Download these with selenium
 - Unzip from downloads directory to the right movie directory.
 
-I got it working, but I'm trying to make the code better, this was harder than i thought.
+I got it working, but I'm trying to make the code better. This was harder than i thought.
