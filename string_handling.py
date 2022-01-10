@@ -13,7 +13,6 @@ def clean_file(li):
 
 def pick_language(li,language,cur_movie):
     ''' Selects page name and subtititle filename for given language. 
-        put this as a list of dicts in movie object on the form {"page_name": '/subtitles/the-peanut-butter-falcon/english/2488109', "zip_name": 'The.Peanut.Butter.Fa...Rip.Amazon',"n_matches": 0)
         takes list
         
     '''
