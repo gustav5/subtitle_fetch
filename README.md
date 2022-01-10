@@ -9,4 +9,8 @@ Downloads subtitles from subscene for your legally downloaded movies. Just a pro
 - Download these with selenium
 - Unzip from downloads directory to the right movie directory.
 
-I got it working, but I'm trying to make the code better. This was harder than i thought.
+I got it working, but I'm trying to make the code better. This was harder than i thought. Some things I am working on:
+- I did a lot of lists, changing these to dictionarys instead. 
+- Making the movie an object with attributes and some methods.
+- Changing from beautiful soup to requests to scrape subscene.
+
