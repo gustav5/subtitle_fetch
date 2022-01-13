@@ -33,7 +33,7 @@ def get_file_name(name):
     Parameters
     ----------
     A directory name: String.
-    example: "C:\filmer\Dark.Waters.2019"
+    example: "C:\filmer\Movie.Name.2019"
 
     Returns
     -------
