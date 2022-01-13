@@ -9,7 +9,7 @@ import requests
 import lxml.html as lh
 import pandas as pd
 
-url='https://subscene.com/subtitles/the-peanut-butter-falcon'
+url='https://subscene.com/subtitles/manos-the-hands-of-fate'
 #Create a handle, page, to handle the contents of the website
 page = requests.get(url)
 #Store the contents of the website under doc
